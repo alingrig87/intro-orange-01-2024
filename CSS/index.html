@@ -4,11 +4,23 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Exemplu CSS</title>
-		<link rel="stylesheet" href="styles.css" />
+		<style>
+			h2 {
+				background-color: bisque;
+				text-align: center;
+				color: darkred;
+			}
+			#paragraf1 {
+				color: red;
+			}
+			.highlight {
+				background-color: rgb(54, 225, 80);
+			}
+		</style>
 	</head>
 	<body>
 		<header>
-			<h1>Exemplu de Pagina cu CSS</h1>
+			<h1 style="color: blueviolet">Exemplu de Pagina cu CSS</h1>
 			<nav>
 				<ul>
 					<li><a href="#section1">Secțiunea 1</a></li>
@@ -21,7 +33,7 @@
 		<main>
 			<section id="section1">
 				<h2>Secțiunea 1</h2>
-				<p>
+				<p id="paragraf1">
 					Aceasta este prima secțiune. Aici vom arăta cum funcționează
 					<span class="highlight">text-ul evidențiat</span>.
 				</p>
@@ -31,14 +43,17 @@
 				<h2>Secțiunea 2</h2>
 				<p>
 					Aceasta este a doua secțiune. Exemplu de
-					<strong>text îngroșat</strong> și <em>text italic</em>.
+					<strong>text îngroșat</strong> și <em>text italic</em> si
+					<span class="highlight">text-ul evidențiat a doua evidentiat</span>.
 				</p>
 				<img src="image.jpg" alt="Exemplu imagine" />
 			</section>
 
 			<section id="section3">
 				<h2>Secțiunea 3</h2>
-				<p>Aceasta este a treia secțiune. Exemplu de listă:</p>
+				<p class="highlight">
+					Aceasta este a treia secțiune. Exemplu de listă:
+				</p>
 				<ul>
 					<li>Elementul 1</li>
 					<li>Elementul 2</li>
