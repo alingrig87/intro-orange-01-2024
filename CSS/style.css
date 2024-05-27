@@ -1,0 +1,19 @@
+a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#section1 {
+	background-color: aquamarine;
+}
+
+h2 {
+	border: 2px solid black;
+	padding: 10px 20px 30px 40px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
