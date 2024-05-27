@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="exercitiu">
+			<p>
+				3. Se citeste un un numar intreg. Sa se afiseze daca este pozitiv,
+				negativ sau nul.
+			</p>
+			<p><strong>Exemple:</strong></p>
+			<p>se citeste 3, se afiseaza “S-a introdus o valoare pozitiva”</p>
+			<p>se citeste -4, se afiseaza “S-a introdus o valoare negativa”</p>
+			<p>” se citeste 0, se afiseaza “S-a introdus o valoare nula”</p>
+			<div class="input">
+				<label for="number">Introduceti un numar</label>
+				<input type="text" id="number" />
+			</div>
+			<div class="button">
+				<button onclick="showNumberSign()">Arata semnul numarului</button>
+			</div>
+			<div class="output">
+				<p id="result">Rezultatul va fi afisat aici</p>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>

@@ -1,4 +1,4 @@
-function nextNumber() {
+function showNextNumber() {
 	var numberInput = document.getElementById('number');
 	var number = Number(numberInput.value);
 
