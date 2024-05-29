@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="exercitiu">
+			<p>5. Se citesc doua numere. Sa de afiseze suma si produsul lor.</p>
+			<p><strong>Exemple:</strong></p>
+			<p>
+				se citesc 3 si 2, se afiseaza “Suma este 5” si apoi “Produsul este 6”
+			</p>
+			<p>
+				se citesc -3 si 2, se afiseaza “Suma este -1” si apoi “Produsul este -6”
+			</p>
+			<p>
+				se citesc 0 si 2, se afiseaza “Suma este 2” si apoi “Produsul este 0”
+			</p>
+			<div class="input">
+				<label for="first-number">Primul numar</label>
+				<input type="text" id="first-number" />
+			</div>
+			<div class="input">
+				<label for="second-number">Al doilea numar</label>
+				<input type="text" id="second-number" />
+			</div>
+			<div class="button">
+				<button onclick="calculate()">Calculeaza suma si produsul</button>
+			</div>
+			<div class="output">
+				<p id="result">Rezultatul va fi afisat aici</p>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>

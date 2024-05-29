@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="exercitiu">
+			<p>
+				16. Se citesc 2 valori in ordine crescatoare. Sa se afiseze toate
+				numerele pare care sunt mai mari sau egale cu primul numar si mai mici
+				sau egale cu al doilea numar.
+			</p>
+			<p><strong>Exemple:</strong></p>
+			<p>Se citeste -3 si 3. Se afiseaza -2 0 2</p>
+			<p>Se citeste 3 si 4. Se afiseaza 4</p>
+			<p>Se citeste 3 si 3. Se afiseaza “Nici o valoare de afisat”</p>
+			<div class="input">
+				<label for="first-number">Primul numar</label>
+				<input type="text" id="first-number" />
+			</div>
+			<div class="input">
+				<label for="second-number">Al doilea numar</label>
+				<input type="text" id="second-number" />
+			</div>
+			<div class="button">
+				<button onclick="printEvenFromMtoN()">
+					Printeaza de la primul numar pana la al doilea
+				</button>
+			</div>
+			<div class="output">
+				<p id="result">Rezultatul va fi afisat aici</p>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
